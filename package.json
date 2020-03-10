@@ -21,7 +21,6 @@
     "@angular/router": "~9.0.3",
     "boostrap": "^2.0.0",
     "bootstrap": "^4.4.1",
-    "fsevents": "^2.1.2",
     "node-gyp": "^6.1.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
@@ -47,5 +46,8 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.2"
   }
 }
