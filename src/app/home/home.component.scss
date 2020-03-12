@@ -1,0 +1,20 @@
+@import "../../variables";
+.cover {
+    height: 90%;
+    background-color:black;
+    color: #ffffff;
+    text-align: center;
+    .img-col{
+        height: 100%;
+        img {
+            height: 100%;
+        }
+        .blur {
+            width: 20%;
+            height: 100%;
+            right: 0;
+            top:0;
+            background: linear-gradient(to right, #00000000, black);
+        }
+    }
+}

@@ -7,3 +7,11 @@
 @import "~bootstrap/scss/grid";
 @import "~bootstrap/scss/utilities"; // add css utilities
 @import "reset";
+
+html {
+    height: 100%;
+    body {
+        font-family: 'Roboto';
+        height: 100%;
+    }
+}
