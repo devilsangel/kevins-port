@@ -1,20 +1,31 @@
 @import "../../variables";
 .cover {
-    height: 90%;
-    background-color:black;
+    height: 70%;
+    background: linear-gradient(to right, white, white 40%,#0288D1 50%, black 50%, black 70%, black 100%);
     color: #ffffff;
     text-align: center;
+    border-bottom: 3px solid #0288D1;
     .img-col{
         height: 100%;
         img {
             height: 100%;
         }
-        .blur {
-            width: 20%;
-            height: 100%;
-            right: 0;
-            top:0;
-            background: linear-gradient(to right, #00000000, black);
+    }
+    .cover-text2, .cover-text {
+        color:white;
+        position:absolute;
+        top:20%;
+        text-align:center;
+        width: 50%;
+        h1 {
+            font-size: 45px;
+            text-decoration: underline;
+            .highlight {
+                color:#E64A19;
+            }
         }
+    }
+    .cover-text2 {
+        right: 0;
     }
 }
