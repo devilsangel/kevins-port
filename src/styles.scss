@@ -14,10 +14,6 @@ html {
         font-family: 'Raleway';
         height: 100%;
         color: $primary-text;
-        .content {
-            position: relative;
-            overflow: hidden;
-        }
         .underline {
             width: 50px;
             border-bottom: 3px solid #333;
