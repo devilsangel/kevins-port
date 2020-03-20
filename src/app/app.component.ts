@@ -10,8 +10,7 @@ export class AppComponent implements OnInit {
   title = 'kevins-port';
   ngOnInit(){
     AOS.init({
-      duration: 1000,
-      disable: 'mobile'
+      duration: 1000
     });
   }
 }
