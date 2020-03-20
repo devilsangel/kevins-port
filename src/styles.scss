@@ -11,9 +11,9 @@
 html {
     height: 100%;
     body {
-        font-family: 'Roboto';
+        font-family: 'Raleway';
         height: 100%;
-        color: #333;
+        color: $primary-text;
         .underline {
             width: 50px;
             border-bottom: 3px solid #333;

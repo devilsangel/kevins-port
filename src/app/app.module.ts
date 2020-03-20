@@ -7,12 +7,14 @@ import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatIconModule } from '@angular/material/icon';
+import { TimelineComponent } from './timeline/timeline.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ProfileComponent
+    ProfileComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,

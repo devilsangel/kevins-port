@@ -1,10 +1,10 @@
 @import "../../variables";
 .cover {
     height: 70%;
-    background: linear-gradient(to right, white, white 40%,#0288D1 50%, black 50%, black 70%, black 100%);
+    background: linear-gradient(to right, white, white 40%, $dark-primary 50%, black 50%, black 70%, black 100%);
     color: #ffffff;
     text-align: center;
-    border-bottom: 3px solid #0288D1;
+    border-bottom: 3px solid $dark-primary;
     .img-col{
         height: 100%;
         img {
@@ -27,5 +27,19 @@
     }
     .cover-text2 {
         right: 0;
+    }
+}
+
+@media ( max-width: 991.98px ) {
+    .cover {
+        height: auto;
+        .img-col{
+            width: 100%;
+            height: auto;
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
     }
 }
