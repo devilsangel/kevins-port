@@ -8,13 +8,17 @@ import { ProfileComponent } from './profile/profile.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatIconModule } from '@angular/material/icon';
 import { TimelineComponent } from './timeline/timeline.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProfileComponent,
-    TimelineComponent
+    TimelineComponent,
+    ProjectsComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
