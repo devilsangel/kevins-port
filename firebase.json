@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "target": "kevinsport-8d549",
     "public": "dist/kevins-port",
     "ignore": [
       "firebase.json",
